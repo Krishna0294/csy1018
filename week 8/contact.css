@@ -1,0 +1,135 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    }
+
+header{
+    width: 100%;
+    height: auto;
+   background-color: #9ba6a587;
+   border-bottom:5px solid #764848;
+   border-top: 5px solid #764848; 
+}
+
+
+.cont{
+    width: 100%;
+    height100%;
+}
+.container{
+    width: 50%;
+    height: 30%;
+    align-self:end;
+    border:3px solid #764848;
+    height: auto;
+    padding: 25px;
+    margin-left: 100px;
+   
+ }
+
+
+
+.loi{
+    display: inline-block;
+    font-size: 2em;
+    letter-spacing: 0.04em;
+	color: #764848;
+	padding:0 ;
+	width: auto;
+}
+h2{color: #764848;
+    display: inline;
+    background-color: #9ba6a587;
+    font-size:2em; 
+    border: 2px solid #764848;
+}
+
+    
+.contact{
+    width: 100%;
+     color:#764848 ;
+   display: inline-block;
+}
+
+.contact input, .contact textarea{
+    height: 5%;
+    width: 60%;
+    display: block;
+    border: 2px solid #764848;
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 17px;
+}
+
+.contact button {
+    width: auto;
+    background-color:  #764848;
+    color:#9ba6a587 ;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    margin: 0 auto;
+}
+.contact button:hover{
+    background: #764848;
+    padding: 5px;
+    transition: .5s;
+}
+#message{
+    height: 150px;
+}
+
+::placeholder {
+    color: #764848;
+  }
+
+  .svg{
+    height:-100;
+  }
+.fab{
+    height: 15px;
+    width: 10px;
+}
+
+
+footer {
+    background-color: #9ba6a587;
+    border-top: 5px solid #764848;
+    border-bottom:5px solid #764848;
+    
+   
+}
+footer ul{
+    max-width: 800px;
+    margin: 2em auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+    list-style: none;
+    align-self: flex-end;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color: #764848;
+
+}
+svg{
+    width: 20%;
+    height: 10%
+
+}
+footer ul li a:hover
+{
+    background: #9ba6a587;
+    padding: 5px;
+    transition: .5s;
+}
